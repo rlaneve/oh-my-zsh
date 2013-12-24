@@ -22,3 +22,14 @@ alias sl=ls # often screw this up
 
 alias afind='ack-grep -il'
 
+alias rackit='bundle exec rackup'
+alias reload!='. ~/.zshrc'
+
+# git aliases
+alias glog="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
+alias gca="git commit -a"
+alias gs="git status -sb"
+alias gco="git checkout"
+
+# rake aliases
+alias rake='noglob rake'
